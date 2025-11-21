@@ -1,0 +1,17 @@
+#include<stdio.h> 
+int i;
+int main(){ 
+
+    for(int i=1; i<=5; i++){
+        for(int j=1; j<= 5-i; j++){
+            
+            printf(" ");
+        }
+        for(int k=6-i; k<=5; k++){
+                printf("%d", k);
+            }
+        printf("\n");
+        }
+
+return 0;
+}
